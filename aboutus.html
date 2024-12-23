@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TESDA</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="https://cdn.rawgit.com/mfd/f3d96ec7f0e8f034cc22ea73b3797b59/raw/856f1dbb8d807aabceb80b6d4f94b464df461b3e/gotham.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+
+
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Open+Sans">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+      <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
+      
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+      <!-- newly added  -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/5.15.4/css/all.min.css"> -->
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top"> 
+    <div class="container-fluid">
+      <a href="#">
+        <img src="/views/logo.png" class="img-logo" height="50px" width="43px" class="me-3">
+      </a>
+      <a class="seal navbar-brand me-3" id="seal" href="https://sites.google.com/a/tesda.gov.ph/ncr/good-governance/transparency-seal">Transparency Seal</a>
+      <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto"> 
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="aboutus.html">About us</a>
+          </li>   
+
+
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProgram" role="button" data-bs-toggle="dropdown" aria-expanded="false">Program & Services</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownProgram">
+                    <li><a class="dropdown-item nav-link active" href="index.html#spanish-section">Spanish</a></li>
+                    <li><a class="dropdown-item nav-link active" href="index.html#english-section">English</a></li>
+                    <li><a class="dropdown-item nav-link active" href="index.html#japanese-section">Japanese</a></li>
+                    <li><a class="dropdown-item nav-link active" href="index.html#korean-section">Korean</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownResearch" role="button" data-bs-toggle="dropdown" aria-expanded="false">Other Contents</a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownResearch">
+                    <li><a class="dropdown-item nav-link active" href="index.html#req-section">Requirements & Qualifications</a></li>
+                    <li><a class="dropdown-item nav-link active" href="index.html#related-articles">Related Articles</a></li>
+                </ul>
+            </li>     
+        </ul>
+
+        
+        <div class="d-flex"> 
+          <span class="datetime me-3 pt-2" id="datetime"></span>
+
+          <form class="d-flex" role="search">
+            <a href="#contact-footer" class="contact"><button type="button" class="btn btn-outline-secondary" type="button">Contact</button></a>
+          </form> 
+
+
+        </div>
+      </div>
+    </div>  
+  </nav>
+    
+<!-- Content-1 -->
+
+<!-- Content-1 -->
+
+<br>
+
+<h2 class="divider line one-line very-head" >About Us</h2>
+<br>
+<br>
+
+
+<!-- Image div -->
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-10 col-sm-12">
+      <div class="p-3 ">
+        <img src="/views/chart.png" class="img-fluid org-struc tesda-header-image rounded" alt="Responsive image">
+      </div>
+    </div>
+  </div>
+</div>
+
+<br>
+<br>
+
+
+
+<div class="container content-1">
+  <div class="row justify-content-center">
+      <div class="col-md-4 mb-4">
+          <div data-aos="fade-up">
+              <div class="custom-div">
+                  <h2>Mission</h2>
+                  <p>To develop internationally aligned language curricula and implement language training programs for Filipino workforce with positive workplace values and culture</p>
+                  <h2>Vision</h2>
+                  <p>By 2028, the National Language Skills Center is an internationally recognized specialized center for language training to Filipino job-ready workers</p>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+          <div data-aos="fade-up">
+              <div class="custom-div">
+                  <h2>Mandate</h2>
+                  <ul>
+                      <li>Conducts different Language Training Program to equip the job-ready Filipino workers prior to local and global employment;</li>
+                      <li>Serves as the central language skills facility of all regional LSI's;</li>
+                      <li>Develops Language Curricula; and</li>
+                      <li>Becomes the center for Language Trainer's Development</li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      
+      <div class="col-md-4 mb-4">
+          <div data-aos="fade-up">
+              <div class="custom-div">
+                  <h2>Value Statement</h2>
+                  <p>We believe in demonstrated competence, institutional integrity, personal commitment, culture of innovativeness, and a deep sense of nationalism.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+
+ 
+ 
+>
+
+  <div class="container-fluid section-margin about-1-1 " data-aos="fade-up" data-aos-duration="5000">
+    <div class="row">
+      <div class="col-md-6 container-fluid about-1 align-items-start">
+        <img src="views/Tesda7.png" class="aboutusimg img-fluid mt-6" alt="TESDA Image">
+
+      </div>
+  
+      <div class="col-md-6 container-fluid">
+        <h1>TESDA OFFICIAL SLOGAN LOGO</h1>
+        <p>Through the years, TESDA has reached millions of our kababayans by providing inclusive and free technical vocational education and training (TVET) nationwide through various training modalities.
+          <br>
+          <br>
+          The new TESDA slogan and logo demonstrate the Agency's stronger advocacy to give our kababayans even better access to quality-assured and globally competitive tech-voc, and communicate to the public TESDA's aspiration to provide public service with a heart aligned with the administration's brand of governance and leadership ‘Bagong Pilipinas’.
+          <br>
+          <br>
+          Sa TESDA, Lingap Ay Maaasahan.</p>
+        <a href="https://www.tesda.gov.ph/" class="credit-text"> Source: https://www.tesda.gov.ph/</a>
+        <p></p>
+      </div>
+    </div>
+  </div>
+  
+
+
+
+<!-- Carousel -->
+<div class="container-fluid">
+<div class="container" data-aos="fade-up" data-aos-duration="1000">
+  <div class="row justify-content-center">
+    <div class="col-md-12 col-lg-10">
+      <!-- Carousel wrapper -->
+      <div class="carousel" id="carouselVideoExample" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselVideoExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        
+        <div class="carousel-inner">
+          
+          <div class="carousel-item active">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="views/tesda3.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5><!-- Placeable text --></h5>
+              <p>
+                <!-- Placeable text -->
+              </p>
+            </div>
+          </div>
+
+          
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="views/tesda2.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5><!-- Placeable text --></h5>
+              <p>
+                <!-- Placeable text -->
+              </p>
+            </div>
+          </div>
+
+          
+          <div class="carousel-item">
+            <div class="d-flex justify-content-center align-items-center">
+              <img src="views/tesda1.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+              <h5><!-- Placeable text --></h5>
+              <p>
+                <!-- Placeable text -->
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>  
+        <!-- Inner -->
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Carousel wrapper -->
+    </div>
+  </div>
+</div>
+
+<!-- Blue Card -->
+
+<div  class="container">
+	<div class="row">
+	    <div class="container">
+
+            <blockquote class="quote-card blue-card">
+              <p>
+                In 2007, the TESDA-National Language Skills Institute (NLSI) was established in line with the government’s recognition of the importance of language proficiency in the global labor market.
+                TESDA-NLSI aims to respond and address the local and global industry requirements of language proficiency by providing world class workplace-based language skills training, not only for the skilled Filipino Job-ready workers but also to reach out and serve new and more clients and partners.
+             </p>
+        
+             <cite>
+              A little background
+            </cite>
+          </blockquote>
+        </div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+<!-- Footer -->
+
+<div data-aos="fade-up" data-aos-duration="5000">
+  <footer class="footermain text-center text-lg-start text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row my-3">
+        <!-- First Column -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <div class="rounded-circle bg-white shadow-1-strong d-flex align-items-center justify-content-center mb-4 mx-auto" style="width: 150px; height: 150px;">
+            <img src="/views/logonlsc.png" height="180" alt="sample.jpg" loading="lazy" />
+          </div>
+          <p class="text-center">© 2024 National Language Skills Center</p>
+          <ul class="list-unstyled d-flex flex-row justify-content-center">
+            <li>
+              <!-- PLACEABLE CONTENT -->
+            </li>
+            <li>
+              <!-- PLACEABLE CONTENT -->
+            </li>
+            <li>
+              <!-- PLACEABLE CONTENT -->
+            </li>
+          </ul>
+        </div>
+        <!-- Second Column -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4" id="contact-footer">Contact Us</h5>
+          <ul class="list-unstyled">
+            <li>
+              <p><i class="fa-solid fa-phone-volume"></i> 8887-7777</p>
+            </li>
+            <li class="mb-2">
+              <p><i class="fa-solid fa-mobile-screen"></i></i> +63 917-479-43701</p>
+            </li>
+            <li>
+              <p><i class="fa-solid fa-envelope"></i> contactcenter@tesda.gov.ph</p>
+            </li>
+          </ul>
+        </div>
+        <!-- Third Column -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Related Websites</h5>
+          <ul class="list-unstyled footer-websites">
+            <li>
+              <a href="https://icons8.com/icon/12580/email">
+                <i class="fa-solid fa-globe"></i>
+                Tesda Website 
+              </a>
+            </li>
+            <li>
+              <a href="https://twc.tesda.gov.ph/">
+                <i class="fa-solid fa-globe"></i>
+                TWC Website
+              </a>
+            </li>
+            <li>
+              <a href="https://e-tesda.gov.ph/course/">
+                <i class="fa-solid fa-globe"></i>
+                Tesda's Online Programs
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Fourth Column -->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase mb-4">Location</h5>
+          <ul class="list-unstyled">
+            <li> 
+              <span class="icon-text">
+                <i class="fa-solid fa-map-pin"></i>
+                <p>
+                  Bldg.10 Tesda complex, East Service Road, Fort Bonifacio Taguig City 1630 Philippines
+                </p>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      All rights reserved. Copyright © 2024
+      <p class="name-lol">>Gemillan & Valila</p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+
+
+
+
+
+      <script>
+        // Function to display date and time
+        function displayDateTime() {
+          var currentDate = new Date();
+          var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true };
+          var formattedDateTime = currentDate.toLocaleString('en-US', options);
+          document.getElementById('datetime').textContent = formattedDateTime;
+        }
+        
+        // Call the function initially and refresh every second
+        displayDateTime();
+        setInterval(displayDateTime, 1000);
+      
+ // Smooth scrolling for navbar links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    let target = document.querySelector(this.getAttribute('href'));
+    let offset = target.getBoundingClientRect().top + window.scrollY; // Calculate target's offset
+    let windowHeight = window.innerHeight;
+    let targetPosition = offset - (windowHeight / 3); // Center of the screen
+    
+    // Scroll to the center of the target element
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth'
+    });
+  });
+});
+      
+        
+      // When the page finishes loading
+      window.onload = function() {
+        // Initialize navbar state based on scroll position
+        scrollFunction();
+      };
+      
+      // When user scrolls
+      window.onscroll = function() {
+        scrollFunction();
+      };
+      
+      function scrollFunction() {
+        let navbar = document.querySelector('.navbar');
+        let logo = document.querySelector('.img-logo');
+        let seal = document.querySelector('.seal');
+        let datetime = document.querySelector('.datetime');
+        let contact = document.querySelector('.contact');
+        let navbarToggler = document.querySelector('.navbar-toggler');
+      
+        if (window.pageYOffset > 300.9) {
+          navbar.classList.remove('scrolled');
+          navbar.classList.add('sizeup');
+          logo.classList.add('centered');
+          seal.style.display = 'none';
+          datetime.style.display = 'none';
+          contact.style.display = 'none';
+          navbarToggler.style.display = 'none'; // Hide the hamburger icon
+        } 
+        
+        else if (window.pageYOffset > 30.4){
+          navbarToggler.style.display = 'none';
+    
+  } 
+        
+        else {
+          navbar.classList.add('scrolled');
+          navbar.classList.remove('sizeup');
+          logo.classList.remove('centered');
+          seal.style.display = 'block';
+          datetime.style.display = 'block';
+          contact.style.display = 'block';
+          navbarToggler.style.display = 'block'; // Show the hamburger icon
+        }
+      }
+      
+      // When the user clicks on the logo, scroll to the top of the document
+      document.querySelector('.img-logo').addEventListener('click', function() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+      
+      </script>
+      
+      
+      <!-- AOS -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>AOS.init();</script>
+      
+      
+      <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+      <script src="https://kit.fontawesome.com/477208f951.js" crossorigin="anonymous"></script>
+      
+            
+    
+</body>
+</html>

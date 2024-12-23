@@ -1,0 +1,334 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200italic);
+
+body{
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 50px;
+    font-style: normal;
+    background-color: #d8d8d8;
+    scroll-behavior: smooth;
+    background-image: url('/views/bgboring2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+.img-logo{
+margin-right: 20px;
+}
+
+
+.dropdown-menu a{
+background-color: #ffffff !important;
+}
+
+.navbar {
+transition: background-color 0.5s ease;
+}
+
+.navbar.scrolled {
+background-color: #fff; /* Change to the desired background color */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+}
+.navbar-brand {
+transition: opacity 0.7s ease; /* Add opacity transition for smooth effect */
+}
+
+/* Hide the navigation items */
+.navbar-nav {
+opacity: 0;
+pointer-events: none; /* Disable pointer events to prevent interaction */
+}
+
+.navbar.scrolled .navbar-nav {
+opacity: 1;
+pointer-events: auto; /* Re-enable pointer events */
+}
+
+.navbar-nav .nav-item .nav-link {
+      color: #000000;
+      font-family: 'Raleway', sans-serif; /* Example font family */
+      font-weight: bold; /* Example font weight */
+      text-transform: uppercase; /* Example text transform */
+      opacity: 1; /* Ensure consistent opacity */
+      transition: border-bottom 0.4s ease; /* Smooth transition for the underline */
+      border-bottom: 2px solid transparent; /* Transparent underline by default */
+  }
+  
+.navbar-nav .nav-item .nav-link:hover {
+      border-bottom: 2px solid #000000; /* Change the color and length of the underline on hover */
+  }               
+  
+.navbar-nav .nav-item {
+      margin-right: 32px; /* Adjust the right margin between navbar items */
+  }
+
+  .navbar-nav .nav-item.dropdown{
+    /* visibility: hidden; */
+}
+
+  
+
+
+  /* Center the logo */
+.img-logo.centered {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+z-index: 999; /* Ensure the logo is above other elements */
+}
+
+.navbar.sizeup{
+height: 100px;
+background-color: #110d24 !important;
+width: auto;
+opacity: 85%;
+transition: 0.10s;
+}
+
+.content-1{
+    margin-top: 100px;
+}
+
+
+
+.rounded{
+  justify-content: center;
+  
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.custom-div {
+    background-color: #d1cfde;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+  }
+
+  /* Line */
+
+  .line {
+    display: flex; /* Add this to make align-items work */
+    align-items: center;
+    
+  
+    &:before,
+    &:after {
+      content: "";
+      flex: 1; /* Add this to make the line stretch */
+      height: 1px;
+      margin: 0 1em;
+    }
+  }
+  
+.one-line {
+    &:before,
+    &:after {
+      background: black;
+    }
+  }
+
+  /* Footer */
+  .footermain {
+    background-color: rgb(1, 13, 80);
+  }
+
+  /* try */
+
+
+.credit {
+  font-size: 13px;
+  margin-left: 130px;
+  font-style: italic;
+  font-weight: 1px;
+  opacity: 65%;
+}
+
+
+
+.credit-text {
+  margin-left: 0px;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 1px;
+  opacity: 65%;
+  margin-bottom: 0px;
+  
+}
+
+.aboutusimg {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.org-struc{
+  margin-bottom: 50px;
+}
+
+.about-1-1{
+  align-items: start;
+  margin-bottom: 100px;
+}
+
+.about-1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.video-container {
+  margin-top: 70px;
+}
+
+.ratio-16x9 {
+  position: relative;
+  width: 100%;
+}
+
+.ratio-16x9 iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.very-head{
+  font-weight: 900;
+  color: #1b3654;
+}
+
+.section-margin {
+  margin-top: 20px;
+  margin-bottom: 100px; /* Adjust the margin as needed */
+}
+
+
+/* BLUE Card to ah */
+
+.container {
+  max-width: 800px;
+  margin:10px auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.quote-card {
+  background: #fff;
+  color: #222222;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+.quote-card p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+  
+}
+.quote-card cite {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+  opacity: 0.8;
+}
+.quote-card:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+.quote-card:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 25em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+@media (max-width: 640px) {
+  .quote-card:after {
+    font-size: 22em;
+    right: -25px;
+  }
+}
+.quote-card.blue-card { 
+  background: #0078FF;
+  color: #ffffff;
+  box-shadow: 0 1px 2px rgba(34, 34, 34, 0.12), 0 2px 4px rgba(34, 34, 34, 0.24);
+  
+}
+.quote-card.blue-card:before, .quote-card.blue-card:after {
+  color: #5FAAFF;
+}
+
+
+.list-unstyled a {
+  color: #ffffff; /* Change color to blue */
+  text-decoration: none; /* Remove underline */
+  font-style: italic; /* Emphasize it's a website */
+}
+
+
+/* Carousel */
+
+/* Default styles */
+.carousel {
+  width: 100%;
+  height: 500px; /* Default height for larger screens */
+  overflow: hidden; /* Hide any overflow */
+  margin-bottom: 50px;
+}
+
+/* Ensure images fill the available space while maintaining aspect ratio */
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.name-lol{
+  visibility: hidden;
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .carousel {
+    height: 300px; /* Adjust the height for smaller screens */
+  }
+}
+
+.tesda-header-image {
+ height: 900px;
+ width: auto;
+}
+
+ h2 {
+font-weight: 900px;
+}
+
+.credit-text-last {
+  margin-left: 30px;
+}
+
